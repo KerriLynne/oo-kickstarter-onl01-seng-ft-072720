@@ -1,10 +1,10 @@
 class Backer
   attr_reader :name, :backed_projects
 
-  def initialize(name)
+  def initialize(name) #takes a name on initialization, accessible through an attribute reader
     @name = name
-    @backed_projects = []
+    @backed_projects = [] #initializes with a @backed_projects attribute, an empty array
   end
-  
+
 
 end
