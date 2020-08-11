@@ -6,5 +6,8 @@ class Backer
     @backed_projects = [] #initializes with a @backed_projects attribute, an empty array
   end
 
+  def back_project(project)
+     backed_projects << project
+
 
 end
